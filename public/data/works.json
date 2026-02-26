@@ -1,0 +1,34 @@
+{
+  "how": [
+    {
+      "icon": "🔍",
+      "name": "Browse Cars",
+      "description": "Explore verified listings and filter by model, price, and condition to find your ideal vehicle."
+    },
+    {
+      "icon": "📄",
+      "name": "View Details",
+      "description": "Check specifications, images, and seller information before making a decision."
+    },
+    {
+      "icon": "🤝",
+      "name": "Contact Seller",
+      "description": "Reach out directly via WhatsApp for transparent and fast communication."
+    },
+    {
+      "icon": "💰",
+      "name": "Agree on Price",
+      "description": "Negotiate fairly and finalize terms with confidence and clarity."
+    },
+    {
+      "icon": "🛠️",
+      "name": "Inspect Vehicle",
+      "description": "Verify condition through physical inspection or trusted mechanics."
+    },
+    {
+      "icon": "🚗",
+      "name": "Complete Transaction",
+      "description": "Finalize payment and drive away with your new vehicle."
+    }
+  ]
+}

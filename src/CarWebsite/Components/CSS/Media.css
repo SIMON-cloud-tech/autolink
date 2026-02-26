@@ -1,0 +1,84 @@
+/* ==========================
+   MEDIA SECTION
+========================== */
+.media {
+  position: relative;
+  background-image: url('/public/images/car9.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* DARK OVERLAY (black + aqua feel) */
+.media-overlay {
+  position: absolute;
+  inset: 0;
+  color: black;
+  background: rgba(15, 17, 21, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTENT */
+.media-content {
+  text-align: center;
+  color: black;
+  z-index: 2;
+}
+
+.media-content h2 {
+  color: #00b0f5;
+  text-shadow: 2px 2px 2px 2px aqua;
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 8px;
+}
+
+.media-content p {
+  color: white;
+  font-size: 20px;
+  font-size: x-large;
+  line-height: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* ICONS */
+.media-icons {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+}
+
+.media-icons a {
+  color: #00b0f5;
+  font-size: 22px;
+  width: 44px;
+  height: 44px;
+  border: 1px solid #00b0f5;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.media-icons a:hover {
+  background: #00b0f5;
+  color: #0f1115;
+}
+
+@media (max-width: 768px) {
+  .media {
+    min-height: 50vh;
+  }
+
+  .media-content h2 {
+    font-size: 1.7rem;
+  }
+}

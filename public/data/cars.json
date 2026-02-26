@@ -1,0 +1,94 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Toyota Prado TX",
+      "model": "TX 2.8L Diesel",
+      "year": 2021,
+      "price": 8500000,
+      "image": "/images/car1.jpeg",
+      "description": "Command the road with quiet authority. The Prado TX blends luxury with unstoppable durability. Built for executives who don’t explain success — they demonstrate it."
+    },
+    {
+      "id": 2,
+      "name": "Mercedes-Benz C300",
+      "model": "AMG Line",
+      "year": 2022,
+      "price": 7200000,
+      "image": "/images/car2.jpeg",
+      "description": "Refined aggression. Precision engineering. The C300 AMG Line isn’t transportation — it’s a statement that you have arrived and you are not negotiating your standards."
+    },
+    {
+      "id": 3,
+      "name": "BMW X5",
+      "model": "xDrive40i",
+      "year": 2020,
+      "price": 6900000,
+      "image": "/images/car3.jpeg",
+      "description": "Dominance meets intelligence. The BMW X5 delivers power that obeys you instantly. For those who understand that control is the ultimate luxury."
+    },
+    {
+      "id": 4,
+      "name": "Mazda CX-5",
+      "model": "2.5L AWD",
+      "year": 2021,
+      "price": 3800000,
+      "image": "/images/car4.jpeg",
+      "description": "Elegance without apology. The CX-5 offers refined comfort wrapped in bold design. It whispers class while others scream for attention."
+    },
+    {
+      "id": 5,
+      "name": "Subaru Forester",
+      "model": "2.0i Hybrid",
+      "year": 2019,
+      "price": 3100000,
+      "image": "/images/car5.jpeg",
+      "description": "Built for thinkers. Reliable. Tactical. Efficient. The Forester gives you long-term advantage — the kind that smart people choose."
+    },
+    {
+      "id": 6,
+      "name": "Range Rover Sport",
+      "model": "HSE Dynamic",
+      "year": 2022,
+      "price": 12500000,
+      "image": "/images/car6.jpeg",
+      "description": "Luxury engineered for power players. The Range Rover Sport doesn’t follow roads — it defines them. Presence is power."
+    },
+    {
+      "id": 7,
+      "name": "Audi Q7",
+      "model": "3.0 TFSI Quattro",
+      "year": 2021,
+      "price": 9800000,
+      "image": "/images/car7.jpeg",
+      "description": "Precision. Confidence. Silence. The Audi Q7 gives you authority without noise — and power without drama."
+    },
+    {
+      "id": 8,
+      "name": "Volkswagen Tiguan",
+      "model": "1.4 TSI",
+      "year": 2020,
+      "price": 3600000,
+      "image": "/images/car8.jpeg",
+      "description": "Smart choice. Strategic investment. The Tiguan balances performance and economy for individuals who think three moves ahead."
+    },
+    {
+      "id": 9,
+      "name": "Nissan X-Trail",
+      "model": "2.5L AWD",
+      "year": 2019,
+      "price": 2900000,
+      "image": "/images/car9.jpeg",
+      "description": "Versatility redefined. The X-Trail adapts to your ambition. Practical yet powerful — the perfect weapon for daily conquest."
+    },
+    {
+      "id": 10,
+      "name": "Toyota Land Cruiser V8",
+      "model": "4.5L Diesel",
+      "year": 2023,
+      "price": 14500000,
+      "image": "/images/car10.jpeg",
+      "description": "Unquestioned authority. The Land Cruiser V8 is not bought — it is claimed. Built for leaders who understand permanence and power."
+    }
+  ]
+}

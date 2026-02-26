@@ -1,0 +1,24 @@
+{
+  "reasons": [
+    {
+      "icon": "🚗",
+      "title": "Trusted Listings",
+      "description": "All vehicles are verified and listed by reputable sellers for peace of mind."
+    },
+    {
+      "icon": "💰",
+      "title": "Fair Pricing",
+      "description": "Competitive prices with no hidden fees — transparency is our priority."
+    },
+    {
+      "icon": "🤝",
+      "title": "Direct Communication",
+      "description": "Buyers and sellers connect directly for faster, clearer transactions."
+    },
+    {
+      "icon": "⚙️",
+      "title": "Quality Assurance",
+      "description": "Vehicles undergo checks to ensure they meet quality expectations."
+    }
+  ]
+}

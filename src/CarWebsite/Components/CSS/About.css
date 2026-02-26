@@ -1,0 +1,81 @@
+/* ==========================
+   ABOUT SECTION
+========================== */
+.about {
+border-top: 1px solid #00b0f53a;
+  background: #0f1115;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+/* TITLE */
+.about h1 {
+  color: #00b0f5;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* CARD */
+.about-card {
+  background: #1a1d23;
+  padding: 25px;
+  border-radius: 12px;
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.7;
+  border: 1px solid transparent;
+  transition: border 0.2s ease;
+}
+
+/* subtle hover (optional) */
+.about-card:hover {
+  border: 1px solid #00b0f5;
+}
+
+/* PARAGRAPHS */
+.about-card p {
+  color: #cccccc;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+}
+
+/* HIGHLIGHT LINE */
+.highlights {
+  color: #00b0f5;
+  margin-top: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* ==========================
+   RESPONSIVENESS
+========================== */
+@media (max-width: 768px) {
+  .about {
+    padding: 40px 15px;
+  }
+
+  .about h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-card {
+    padding: 20px;
+  }
+
+  .about-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about h1 {
+    font-size: 1.6rem;
+  }
+
+  .about-card {
+    text-align: center;
+  }
+}

@@ -1,0 +1,103 @@
+/* ==========================
+   CHOOSE SECTION
+========================== */
+.choose-container {
+  background: #0f1115;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.choose-container h2 {
+  color: #00b0f5;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* GRID */
+.choose-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* CARD */
+.choose-card {
+  background: #1a1d23;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  transition: transform 0.25s ease, border 0.25s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.choose-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.4s ease;
+}
+
+.choose-card:hover {
+  border: 1px solid #00b0f5;
+  transform: translateY(-4px);
+}
+
+/* ICON */
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.choose-card h3 {
+  color: #00b0f5;
+  margin-bottom: 8px;
+}
+
+.choose-card p {
+  color: #cccccc;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* LOADING & ERROR */
+.choose-loading,
+.choose-error {
+  text-align: center;
+  color: #00b0f5;
+  margin-top: 20px;
+}
+
+/* ==========================
+   MOBILE FRIENDLY
+========================== */
+@media (max-width: 768px) {
+  .choose-container {
+    padding: 40px 15px;
+  }
+
+  .choose-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .choose-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .choose-card {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .choose-container h2 {
+    font-size: 1.6rem;
+  }
+
+  .choose-card p {
+    font-size: 0.85rem;
+  }
+}

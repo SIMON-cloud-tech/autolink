@@ -1,0 +1,80 @@
+/* ==========================
+   NAVBAR
+========================== */
+.navbar {
+  background: #0f1115;
+  padding: 14px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #00b0f5;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.logo-image{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+}
+/* LOGO */
+.logo a {
+  color: #00b0f5;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+/* MENU */
+.menu {
+  display: flex;
+  gap: 24px;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  transition: color 0.2s ease;
+}
+
+.menu a:hover {
+  color: #00b0f5;
+}
+
+/* HAMBURGER (mobile) */
+.hamburger {
+  display: none;
+  color: #00b0f5;
+  cursor: pointer;
+}
+
+/* MOBILE MENU */
+.menu.menu-items {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: #1a1d23;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #00b0f5;
+}
+
+.menu.menu-items a {
+  padding: 8px 0;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

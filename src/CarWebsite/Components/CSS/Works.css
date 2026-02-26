@@ -1,0 +1,129 @@
+/* ==========================
+   HOW IT WORKS SECTION
+========================== */
+.why {
+  background: #0f1115;
+  border-top: 1px solid #00b0f53a;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+/* TITLE */
+.why h2 {
+  color: #00b0f5;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* SHOW MORE */
+.show-more {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1100px;
+  margin: 0 auto 20px;
+}
+
+.show-more button {
+  background: transparent;
+  border: 2px solid #00b0f5;
+  color: #00b0f5;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.show-more button:hover {
+  background: #00b0f5;
+  color: #0f1115;
+}
+
+/* GRID */
+.how-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  text-align: center;
+  justify-content: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* CARD */
+.item-card {
+  background: #1a1d23;
+  padding: 20px 30px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  transition: transform 0.18s ease, border 0.18s ease;
+}
+
+.item-card:hover {
+  border: 1px solid #00b0f5;
+  transform: translateY(-4px);
+}
+
+/* ICON */
+.icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+.item-card h3 {
+  color: #00b0f5;
+  line-height: 2rem;
+  margin-bottom: 6px;
+}
+
+.item-card p {
+  color: #cccccc;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+/* LOADING & ERROR */
+.works-loading,
+.works-error {
+  text-align: center;
+  color: #00b0f5;
+  margin-top: 20px;
+}
+
+/* ==========================
+   MOBILE FRIENDLY
+========================== */
+@media (max-width: 768px) {
+  .why {
+    padding: 40px 15px;
+  }
+
+  .why h2 {
+    font-size: 1.8rem;
+  }
+
+  .how-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .item-card {
+    padding: 18px;
+  }
+
+  .show-more {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .why h2 {
+    font-size: 1.6rem;
+  }
+
+  .item-card p {
+    font-size: 0.85rem;
+  }
+}
