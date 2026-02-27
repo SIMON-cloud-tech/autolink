@@ -10,7 +10,7 @@ export default function How() {
   useEffect(() => {
     const fetchWorks = async () => {
       try {
-        const res = await fetch("/data/works.json");
+        const res = await fetch(`${import.meta.env.BASE_URL}data/works.json`);
         if (!res.ok) throw new Error("Failed to load data");
 
         const data = await res.json();

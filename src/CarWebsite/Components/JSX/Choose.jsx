@@ -9,7 +9,7 @@ export default function Choose() {
   useEffect(() => {
     const fetchReasons = async () => {
       try {
-        const res = await fetch("/data/choose.json");
+        const res = await fetch(`${import.meta.env.BASE_URL}data/choose.json`);
         if (!res.ok) throw new Error("Failed to load data");
 
         const data = await res.json();

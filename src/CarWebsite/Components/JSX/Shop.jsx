@@ -14,7 +14,7 @@ export default function Shop(){
     
         const fetchCars = async ()=> {
             try{
-                const res = await fetch("/data/cars.json");
+                const res = await fetch(`${import.meta.env.BASE_URL}data/cars.json`);
                 if(!res.ok) throw new Error("Failed to load data");
                 const data = await res.json();
                 setCars(data.cars || []);
@@ -87,7 +87,7 @@ export default function Shop(){
             <div className="shop-grid">
                 {visibleData.map((c, index)=> (
                     <div key={index} className="shop-card animate">
-                        <img src={c.image} alt={c.name} />
+                            <img src={`${import.meta.env.BASE_URL}${c.image.replace(/^\/+/, "")}`} alt={c.name} />
                         <h3>{c.name}</h3>
                         <p>{c.description}</p>
                         <small className="price">
