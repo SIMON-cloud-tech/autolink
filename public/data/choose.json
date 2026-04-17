@@ -1,24 +1,24 @@
 {
   "reasons": [
     {
-      "icon": "🚗",
-      "title": "Trusted Listings",
-      "description": "All vehicles are verified and listed by reputable sellers for peace of mind."
+      "icon": "FiShield",
+      "title": "100% Verified Listings",
+      "description": "Every vehicle undergoes rigorous verification by our expert team. We check ownership documents, service history, and conduct physical inspections to ensure complete authenticity and your peace of mind."
     },
     {
-      "icon": "💰",
-      "title": "Fair Pricing",
-      "description": "Competitive prices with no hidden fees — transparency is our priority."
+      "icon": "FiTag",
+      "title": "Best Price Guarantee",
+      "description": "Our advanced market analysis ensures you get the most competitive prices. We compare thousands of listings daily to guarantee fair market value with zero hidden fees or surprise charges."
     },
     {
-      "icon": "🤝",
-      "title": "Direct Communication",
-      "description": "Buyers and sellers connect directly for faster, clearer transactions."
+      "icon": "FiUsers",
+      "title": "Direct Seller Access",
+      "description": "Connect instantly with verified sellers through our secure platform. No middlemen, no commissions - just direct communication that saves you time and money while building trust."
     },
     {
-      "icon": "⚙️",
-      "title": "Quality Assurance",
-      "description": "Vehicles undergo checks to ensure they meet quality expectations."
+      "icon": "FiAward",
+      "title": "Premium Quality Assurance",
+      "description": "Our comprehensive 150-point inspection covers everything from engine performance to interior condition. Only vehicles meeting our strict quality standards make it to our platform."
     }
   ]
 }

@@ -94,15 +94,210 @@
 ========================== */
 .shop-card {
   background: #1a1d23;
-  border-radius: 14px;
+  border: 1px solid #00b0f53a;
+  border-radius: 12px;
+  padding: 0;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
   overflow: hidden;
-  border: 1px solid transparent;
-  transition: transform 0.18s ease, border 0.18s ease;
 }
 
 .shop-card:hover {
   transform: translateY(-4px);
   border: 1px solid #00b0f5;
+}
+
+/* CARD PSYCHOLOGY ELEMENTS */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: rgba(255, 59, 48, 0.1);
+  border-bottom: 1px solid rgba(255, 59, 48, 0.2);
+}
+
+.viewer-count {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: #ff3b30;
+  font-weight: 600;
+}
+
+.eye-icon {
+  font-size: 0.9rem;
+}
+
+.urgency-badge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  animation: pulse-glow 2s infinite;
+}
+
+.pulse-dot-small {
+  width: 6px;
+  height: 6px;
+  background: white;
+  border-radius: 50%;
+  animation: pulse-dot-small 1.5s infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes pulse-dot-small {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.6; transform: scale(1.3); }
+}
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.scarcity-overlay {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(0, 255, 127, 0.9);
+  color: #0f1115;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  animation: bounce 2s infinite;
+}
+
+.savings-tag {
+  font-weight: 700;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.price-section {
+  margin: 15px 0;
+}
+
+.price-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.current-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00b0f5;
+}
+
+.discount-badge {
+  background: #ff3b30;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.social-proof-mini {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 8px;
+  background: rgba(0, 176, 245, 0.05);
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.rating {
+  color: #ffa500;
+  font-weight: 600;
+}
+
+.sold-count {
+  color: #00ff7f;
+  font-weight: 600;
+}
+
+.loss-aversion {
+  background: rgba(255, 193, 7, 0.1);
+  border: 1px solid rgba(255, 193, 7, 0.3);
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 10px 0;
+}
+
+.warning-text {
+  color: #ffc107;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.buy-button {
+  width: 100%;
+  background: linear-gradient(135deg, #00b0f5, #00c9b0);
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.buy-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 176, 245, 0.4);
+}
+
+.button-text {
+  display: block;
+  font-weight: 700;
+}
+
+.button-urgency {
+  display: block;
+  font-size: 0.75rem;
+  margin-top: 4px;
+  color: #ff6b6b;
+  font-weight: 600;
 }
 
 /* IMAGE */

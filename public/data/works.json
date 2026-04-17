@@ -1,34 +1,34 @@
 {
   "how": [
     {
-      "icon": "🔍",
-      "name": "Browse Cars",
-      "description": "Explore verified listings and filter by model, price, and condition to find your ideal vehicle."
+      "icon": "FiSearch",
+      "name": "Browse Premium Cars",
+      "description": "Discover our handpicked selection of quality vehicles with advanced filtering by make, model, price range, and condition. Every listing is thoroughly verified for your peace of mind."
     },
     {
-      "icon": "📄",
-      "name": "View Details",
-      "description": "Check specifications, images, and seller information before making a decision."
+      "icon": "FiFileText",
+      "name": "Detailed Vehicle Reports",
+      "description": "Access comprehensive vehicle histories, maintenance records, high-resolution images, and detailed specifications. Make informed decisions with complete transparency."
     },
     {
-      "icon": "🤝",
-      "name": "Contact Seller",
-      "description": "Reach out directly via WhatsApp for transparent and fast communication."
+      "icon": "FiMessageCircle",
+      "name": "Direct Seller Connection",
+      "description": "Connect instantly with verified sellers through our secure messaging platform. Get real-time responses, negotiate confidently, and build trust before meeting."
     },
     {
-      "icon": "💰",
-      "name": "Agree on Price",
-      "description": "Negotiate fairly and finalize terms with confidence and clarity."
+      "icon": "FiDollarSign",
+      "name": "Smart Price Negotiation",
+      "description": "Leverage market insights and fair pricing tools to negotiate the best deal. Our platform ensures transparent pricing with no hidden fees or surprises."
     },
     {
-      "icon": "🛠️",
-      "name": "Inspect Vehicle",
-      "description": "Verify condition through physical inspection or trusted mechanics."
+      "icon": "FiTool",
+      "name": "Professional Inspection",
+      "description": "Schedule comprehensive vehicle inspections with certified mechanics. Get detailed reports on vehicle condition, performance, and any potential issues."
     },
     {
-      "icon": "🚗",
-      "name": "Complete Transaction",
-      "description": "Finalize payment and drive away with your new vehicle."
+      "icon": "FiCheckCircle",
+      "name": "Secure Transaction",
+      "description": "Complete your purchase safely with our secure payment system and transfer services. Drive away with confidence knowing everything is handled professionally."
     }
   ]
 }

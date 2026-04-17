@@ -1,5 +1,13 @@
 import React, { useEffect, useState } from "react";
 import '../CSS/Choose.css';
+import { FiShield, FiTag, FiUsers, FiAward } from 'react-icons/fi';
+
+const iconMap = {
+  FiShield: FiShield,
+  FiTag: FiTag,
+  FiUsers: FiUsers,
+  FiAward: FiAward
+};
 
 export default function Choose() {
   const [reasons, setReasons] = useState([]);
@@ -55,7 +63,9 @@ export default function Choose() {
       <div className="choose-grid">
         {reasons.map((item, index) => (
           <div key={index} className="choose-card">
-            <div className="icon">{item.icon}</div>
+            <div className="icon">
+            {iconMap[item.icon] ? React.createElement(iconMap[item.icon], { size: 32 }) : item.icon}
+          </div>
             <h3>{item.title}</h3>
             <p>{item.description}</p>
           </div>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import '../CSS/Contact.css';
 
-export default function Shop() {
+export default function Reach() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
@@ -73,7 +73,7 @@ ${message}
           <ul>
             <li>Email: info@autohub.com</li>
             <li>Phone: +254 700 000 000</li>
-            <li>Website: www.autohub.com</li>
+            <li>Website: www.autoLink.com</li>
             <li>Kakamega Town</li>
           </ul>
         </div>

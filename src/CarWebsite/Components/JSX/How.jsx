@@ -1,5 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "../CSS/Works.css";
+import { FiSearch, FiFileText, FiMessageCircle, FiDollarSign, FiTool, FiCheckCircle } from 'react-icons/fi';
+
+const iconMap = {
+  FiSearch: FiSearch,
+  FiFileText: FiFileText,
+  FiMessageCircle: FiMessageCircle,
+  FiDollarSign: FiDollarSign,
+  FiTool: FiTool,
+  FiCheckCircle: FiCheckCircle
+};
 
 export default function How() {
   const [items, setItems] = useState([]);
@@ -44,7 +54,9 @@ export default function How() {
       <div className="how-grid">
         {visibleData.map((item, index) => (
           <div key={index} className="item-card">
-            <div className="icon">{item.icon}</div>
+            <div className="icon">
+            {iconMap[item.icon] ? React.createElement(iconMap[item.icon], { size: 32 }) : item.icon}
+          </div>
             <h3>{item.name}</h3>
             <p>{item.description}</p>
           </div>

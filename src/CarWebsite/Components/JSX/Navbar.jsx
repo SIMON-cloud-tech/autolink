@@ -1,4 +1,3 @@
-import { FiMenu } from "react-icons/fi";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../CSS/Navbar.css";
@@ -15,11 +14,13 @@ export default function Navbar() {
         </Link>
       </div>
 
-      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-        <FiMenu size={30} />
+      <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
 
-      <div className={`menu ${menuOpen ? "menu-items" : ""}`}>
+      <div className={`menu ${menuOpen ? "menu-items active" : ""}`}>
         <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
         <Link to="/cars" onClick={() => setMenuOpen(false)}>Marketplace</Link>
         <Link to="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>

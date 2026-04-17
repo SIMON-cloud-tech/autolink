@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://SIMON-cloud-tech.github.io/Car-Marketplace/sitemap.xml
+
+# Block common non-content paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /src/
+
+# Allow search engines to crawl all important content
+Allow: /cars
+Allow: /about
+Allow: /contact
+Allow: /works
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
