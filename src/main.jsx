@@ -8,7 +8,7 @@ import App from "./App";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HelmetProvider>
-      <BrowserRouter basename="/Car-Marketplace">
+      <BrowserRouter basename="/autolink">
         <App />
       </BrowserRouter>
     </HelmetProvider>
