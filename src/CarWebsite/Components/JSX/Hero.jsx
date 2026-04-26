@@ -94,7 +94,7 @@ export default function Hero() {
 
       <div className="hero-image-house">
         <div className="hero-image">
-          <img src={`${import.meta.env.BASE_URL}images/car2.jpeg`} alt="Premium car" />
+          <img src={`${import.meta.env.BASE_URL}images/car8]].jpeg`} alt="Premium car" />
         </div>
       </div>
     </section>
