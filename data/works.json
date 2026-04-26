@@ -1,0 +1,34 @@
+{
+  "how": [
+    {
+      "icon": "FiSearch",
+      "name": "Browse Premium Cars",
+      "description": "Discover our handpicked selection of quality vehicles with advanced filtering by make, model, price range, and condition. Every listing is thoroughly verified for your peace of mind."
+    },
+    {
+      "icon": "FiFileText",
+      "name": "Detailed Vehicle Reports",
+      "description": "Access comprehensive vehicle histories, maintenance records, high-resolution images, and detailed specifications. Make informed decisions with complete transparency."
+    },
+    {
+      "icon": "FiMessageCircle",
+      "name": "Direct Seller Connection",
+      "description": "Connect instantly with verified sellers through our secure messaging platform. Get real-time responses, negotiate confidently, and build trust before meeting."
+    },
+    {
+      "icon": "FiDollarSign",
+      "name": "Smart Price Negotiation",
+      "description": "Leverage market insights and fair pricing tools to negotiate the best deal. Our platform ensures transparent pricing with no hidden fees or surprises."
+    },
+    {
+      "icon": "FiTool",
+      "name": "Professional Inspection",
+      "description": "Schedule comprehensive vehicle inspections with certified mechanics. Get detailed reports on vehicle condition, performance, and any potential issues."
+    },
+    {
+      "icon": "FiCheckCircle",
+      "name": "Secure Transaction",
+      "description": "Complete your purchase safely with our secure payment system and transfer services. Drive away with confidence knowing everything is handled professionally."
+    }
+  ]
+}
